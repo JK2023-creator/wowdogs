@@ -135,7 +135,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.icon}></div>
 
-        <h3>  😸 강아지 전문봇 WowDogs </h3>
+        <h3 className={styles.heading}>😸 강아지 전문봇 WowDogs</h3>
         <div className={styles.chat}>
           <div className={styles.chatDisplay}>
             {messageElements}
