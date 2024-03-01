@@ -53,7 +53,7 @@ const handler = async (req: Request): Promise<Response> => {
       messages: getMessagesPrompt(chat),
       temperature: 0.9,
       presence_penalty: 0.6,
-      max_tokens: 300,
+      max_tokens: 500,
       stream: true,
     }
     const stream = await OpenAIStream(payload)
